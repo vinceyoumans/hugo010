@@ -30,7 +30,8 @@
     }
     .nav-link{
       font-family: $secondary-font;
-      color: $text-color-dark;
+      // color: $text-color-dark;
+      color: $text-color-dark03;
       transition: all .3s ease;
       padding: 15px 18px;
       position: relative;
@@ -81,9 +82,14 @@
   }
   &.nav-bg{
     padding: 12px 0;
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 12px 0px rgba(75, 22, 22, 0.09);
     @include mobile{
       padding: 15px;
     }
   }
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #eb8181b3;
+}
+
